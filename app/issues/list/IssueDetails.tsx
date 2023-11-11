@@ -6,7 +6,7 @@ import {
   Text,
 } from '@radix-ui/themes';
 import ReactMarkdown from 'react-markdown';
-import { IssueStatusBadge } from '../components';
+import { IssueStatusBadge } from '../../components';
 
 const IssueDetails = ({ issue }: { issue: Issue }) => {
   return (
