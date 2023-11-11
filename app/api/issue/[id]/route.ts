@@ -46,7 +46,7 @@ export async function DELETE(
       status: 404,
     });
 
-  prisma.issue.delete({
+  await prisma.issue.delete({
     where: {
       id: issue.id,
     },
